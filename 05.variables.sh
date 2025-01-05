@@ -6,4 +6,4 @@ read USERNAME
 
 echo "please enter password"
 
-read PASSWORD 
+read -s PASSWORD 
