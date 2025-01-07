@@ -7,21 +7,16 @@ if [ $USER -ne 0 ]
         echo "you must have sudo access"
         exit 1
 fi
-
-dnf install mysql -y
+dnf list installed mysql
+if [$? -ne 0]
+then
+    dnf install mysql -y
 
 if [$? -ne 0]
-
-then #dns not installed
-
-dnf install mysql -y
-
-if [ $? -ne 0]
-
-then 
-        ech0 "installing mysql"
-
-if [ $? -ne 0]
-   then 
-      echo "installing mysql.. fi"
-    fi
+    then 
+    echo "installing mysql failed"
+    exit 1
+else
+      echo "installing mysql --success"
+    then
+fi 
