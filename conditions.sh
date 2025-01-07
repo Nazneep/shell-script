@@ -24,4 +24,4 @@ then
 if [ $? -ne 0]
    then 
       echo "installing mysql.. fi"
-        exit 1
+    fi
