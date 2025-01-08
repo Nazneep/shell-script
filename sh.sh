@@ -15,7 +15,4 @@ if [ $? -ne 0 ]
         exit 1
     else
         echo "Installing MySQL ... SUCCESS"
-    fi
-    else 
-       echo "mysql alredy installed"
-    exit 0
+    
