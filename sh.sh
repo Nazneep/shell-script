@@ -18,4 +18,4 @@ if [ $? -ne 0 ]
     fi
     else 
        echo "mysql alredy installed"
-    fi
+    exit 0
