@@ -18,3 +18,4 @@ if [ $? -ne 0 ]
     else
         echo "Installing MySQL ... SUCCESS"
     fi
+    
