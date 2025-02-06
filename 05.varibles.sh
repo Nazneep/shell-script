@@ -3,9 +3,9 @@
 echo "please enter your usename::"
 
 read -s USERNAME
-echo "usernaem enterted: $USERNAME"
+echo "username enterted: $USERNAME"
 
-echo "please enter your password::"
+echo "please enter your password::$PASSWORD"
 
 read -s PASSWORD 
 
