@@ -7,6 +7,6 @@ echo "username enterted: $USERNAME"
 
 echo "please enter your password::"
   
-
+read PASSWORD
 
 
