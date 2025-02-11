@@ -9,6 +9,7 @@ then
     exit 1
 
 dnf install mysql -y
+
 if [ $? -ne 0 ]
     echo "mysql insatll .....fail"
     exit 1
