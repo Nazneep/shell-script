@@ -3,7 +3,7 @@
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
-  then 
+then 
         echo "ERROR:you must have sudo access"
         exit 1
  fi       
