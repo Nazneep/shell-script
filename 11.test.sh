@@ -8,15 +8,15 @@ then
     echo "ERROR:you must have sudo access"
     exit 1
 fi
-dnf install mysql -y
+dnf install git -y
 
 if [ $?-ne 0 ]
     then
-         echo "mysql insatll .....fail"
+         echo "git insatll .....fail"
     exit 1
 
     else 
-         echo "mysql install...success"
+         echo "git install...success"
  
 fi
 
