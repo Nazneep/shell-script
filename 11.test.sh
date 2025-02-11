@@ -1,5 +1,5 @@
 #!/bin/bash
-USERID=$[ id -u ]
+USER=$( id -u )
 
 
 if [ $USERDID -ne 0 ]
