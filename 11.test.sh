@@ -2,7 +2,7 @@
 USERID=$[ id -u ]
 
 
-if [ $USERDID-ne 0 ]
+if [ $USERDID -ne 0 ]
 
 then
     echo "ERROR:you must have sudo access"
@@ -10,7 +10,7 @@ then
 fi
 dnf install git -y
 
-if [ $?-ne 0 ]
+if [ $? -ne 0 ]
     then
          echo "git insatll .....fail"
     exit 1
