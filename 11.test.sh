@@ -1,12 +1,12 @@
 #!/bin/bash
-USER=$( id -u )
 
+USER=$(id -u)
 
-if [ $USERDID -ne 0 ]
-    then
+if [ $USERID -ne 0 ]
+  then 
         echo "ERROR:you must have sudo access"
-    exit 1
-fi
+        exit 1
+ fi       
 dnf install git -y
 
 if [ $? -ne 0 ]
