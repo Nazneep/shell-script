@@ -1,5 +1,7 @@
 #!/bin/bash
 
+USER=$(id -u)
+
 if [ $USER -ne 0 ]
   then 
         echo "you must have sudo access"
@@ -18,4 +20,4 @@ if [ $? -ne 0 ]
     fi
     else 
        echo "mysql alredy installed"
-    exit 0 
+    exit 0
