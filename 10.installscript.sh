@@ -7,3 +7,4 @@ if [ $USERID-ne 0 ]
         echo "ERROR:you must have sudo access"
  fi       
    dnf install mysql -y
+   dnf install mysql -y
